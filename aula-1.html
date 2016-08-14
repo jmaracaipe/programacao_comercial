@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Título da página</title>
+    </head>
+    <body>
+        <h1 align="center">Primeiro Cabeçalho.</h1>
+        <h2>Segundo Cabeçalho.</h2>
+        <img src="img/brasao.jpg" title="Primeira imagem" height="80" width="80">
+        <h3>Terceiro Cabeçalho.</h3>
+        <h4>Quarto Cabeçalho.</h4>
+        <p>Primeiro Parágrafo</p>
+        <a href="http://www.uft.edu.br/" target="blank">Link do site da Universidade Federal do Tocantins</a>
+
+        <table border="10">
+          <caption>Descrição</caption>
+          <thead>
+            <tr>
+              <th> Coluna1  </th>
+              <th> Coluna2  </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Linha1 - Coluna1</td>
+              <td>Linha1 - Coluna2</td>
+            </tr>
+            <tr>
+              <td>Linha2 - Coluna1</td>
+              <td>Linha2 - Coluna2</td>
+            </tr>
+            <tr>
+              <td>Linha3 - Coluna1</td>
+              <td>Linha4 - Coluna2</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <h2>Lista Ordenada</h2>
+        <ol>
+          <li>Primeiro item</li>
+          <li>Segundo item</li>
+          <li>Felipe é Wacilão</li>
+        </ol>
+        <ul>
+          <li>Primeiro item</li>
+          <li>Segundo item</li>
+          <li>Felipe é Wacilão</li>
+        </ul>
+
+        <form action="/cadastro/" method="post">
+
+          <label>Login:  </label>
+          <input type="text" name="Login" placeholder="Digite seu login">
+          <br/>
+          <label>Senha: </label>
+          <input type="password" name="senha" placeholder="Digite sua senha">
+
+          <br/>
+          <input type="radio" name="sexo" value="1" >
+          Masculino</input> <br/>
+          <input type="radio" name="sexo" value="2">
+          Feminino</input> <br/>
+          <input type="radio" name="sexo" value="3"checked>
+          Não informar</input> <br/>
+
+
+          <label>Curso</label>
+          <select name="Curso">
+            <option value="1">Ciência da Computação</option>
+            <option value="2">Engenharia Elétrica</option>
+            <option value="3">Direito</option>
+            <option value="4">Medicina</option>
+          </select>
+
+          <br/>
+          <label>Menssagem:</label>
+          <br/>
+          <textarea name="mensag" rows="10" cols="20"></textarea>
+
+          <br/>
+          <input type="checkbox" name="homem-de-ferro1" value="robo1">Eu sou um robô</input>
+          <br/>
+          <input type="checkbox" name="homem-de-ferro2" value="robo2">Eu não sou um robô</input>
+          <br/>
+          <input type="checkbox" name="homem-de-ferro3" value="robo3">Eu sou e não sou um robô</input>
+
+          <br/>
+          <label>Idade:</label>
+          <input type="number" name="idade" value="18" min="0" max="100" step="1">
+
+          <br/>
+          <label>Data de Nascimento:</label>
+          <input type="date" name="datadenasc" min="1997-22-09">
+
+          <br/>
+          <label>Auto Complete:</label>
+          <input list="cheeses">
+            <datalist id="cheeses">
+              <option>Cheeder</option>
+              <option>Prato</option>
+              <option>Suiço</option>
+            </datalist>
+
+          <input type="hidden" name="country" value="Brasil">
+
+          <input type="reset" value="Limpar">
+          <input type="submit" value="Enviar">
+          <button type="button" onclick="alert('Click Aqui')">Botão</button>
+
+        </form>
+
+        <div id="area-mensagens">
+          Elementos de Bloco
+        </div>
+
+        Elementos <span class="destaque"> de</span> linha
+
+
+    </body>
+</html>
