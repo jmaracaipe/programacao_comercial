@@ -1,0 +1,27 @@
+body	{
+	/*background-color: #00ff00;*/
+}
+h1{
+	color: red;
+	text-align: center;
+}
+p{
+	font-family: verdana;
+	font-feature-settings: 20px;
+}
+th, td{
+	border-bottom: 1px dashed #d0d0d0;
+}
+tr:nth-child (even) {background-color: #00ff00}/*todas as linhas alterando ficam da cor*/
+tr:hover {background-color: #0000ff}/*cor do mouse qnd passar*/
+
+#area-mensagens{
+	border: 1px solid #ff0000;
+	padding-left: 5px 5px 5px 5px;
+
+}
+.destaque {
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #00ff00;
+}
